@@ -1,11 +1,11 @@
 package th.ku.ac.atm;
 
-import th.ku.ac.atm.Customer;
-import th.ku.ac.atm.DataSource;
+import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
 public class DataSourceDB implements DataSource {
 
     /**
